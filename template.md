@@ -1,6 +1,6 @@
 ## Problem Name : Dividing Array
 
-###Topic : Greedy
+### Topic : Greedy
 
 #### Difficulty : Easy
 
@@ -12,7 +12,7 @@ $$ min=  \sum_{j=0}^{n/2 - 1} (A_{2*i+1} - A_{2*i}) $$
 $$ max=  \sum_{j=0}^{n/2 - 1} (A_{i+n/2} - A_{i}) $$
 
 
-####Time Complexity : O(NlogN)
+#### Time Complexity : O(NlogN)
 
 ~~~c++
 #include <bits/stdc++.h>
